@@ -31,9 +31,17 @@ php artisan serve
 
 Buka `http://127.0.0.1:8000`.
 
----
 
-## 3. Deploy ke Railway
+## 3. Cara mengakses aplikasi yang sudah di‑hosting di Railway
+```URL produksi:
+Gunakan URL Railway kamu, contoh:
+https://accomplished-warmth-production.up.railway.app
+Untuk user / pengunjung:
+Cukup buka URL tersebut di browser.
+Gunakan fitur filter tanggal di dashboard seperti biasa.
+```
+
+## 4. Deploy ke Railway
 
 Railway sudah didukung dengan file `Procfile`. Langkah singkatnya:
 
@@ -76,7 +84,7 @@ Railway sudah didukung dengan file `Procfile`. Langkah singkatnya:
 
 ---
 
-## 4. Struktur Fitur
+## 5. Struktur Fitur
 
 - `app/Http/Controllers/DashboardController.php`  
   Mengambil data penjualan, menghitung total, dan menyiapkan data Chart.js.
@@ -87,6 +95,6 @@ Railway sudah didukung dengan file `Procfile`. Langkah singkatnya:
 
 ---
 
-## 5. Lisensi
+## 6. Lisensi
 
 MIT License.
