@@ -270,7 +270,7 @@
                 </p>
             </div>
             <div class="filters">
-                <form method="GET" action="{{ route('dashboard') }}">
+                <form method="GET">
                     <div class="field-group">
                         <label class="field-label" for="start_date">Tanggal mulai (yyyy/mm/dd)</label>
                         <input
