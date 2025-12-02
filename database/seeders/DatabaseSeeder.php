@@ -26,7 +26,7 @@ class DatabaseSeeder extends Seeder
 
         foreach ($sales as $sale) {
             Sale::create($sale);
-        }
     }
+}
 }
 
